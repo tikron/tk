@@ -80,7 +80,7 @@
 						Weitere Kenntnisse sind Search Engine Optimization, Datenanalyse, Konfiguration der Application Server auf Linux und IBM iSeries sowie der Kundensupport.     
 					</p>
 					<p>
-						Lesen Sie auf der folgenden Seite eine <a href="/skills.html">Zusammenfassung meiner Kenntnisse und Fähigkeiten</a>.
+						Auf der folgenden Seite erhalten Sie eine <a href="/skills.html">Zusammenfassung meiner Kenntnisse und Fähigkeiten</a>.
 					</p>
 				</section>
 				<%@ include file="include/sub-nav.jspf"%>
