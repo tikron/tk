@@ -1,0 +1,9 @@
+<div class="clear"></div>
+<footer>
+	<nav id="meta">
+		<ul>
+			<li><a href="${jspPath}contact${jspSuffix}">Kontakt</a></li>
+			<li><a href="${jspPath}imprint${jspSuffix}">Impressum</a></li>
+		</ul>
+	</nav>
+</footer>

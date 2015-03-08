@@ -1,0 +1,313 @@
+/* 
+* TK (Default-Stylesheet)
+* Copyright (c) 2010 by Titus Kruse
+*/
+
+@charset "utf-8";
+
+/*** HTML-Tag styles *********************************/
+
+body {
+	background: url(img/bg1.jpg) #808080; 
+	color: black;
+	margin: 0;
+	padding: 0 1% 1%;
+	min-width: 640px;
+	font-size: 100.01%;
+	font-family: verdana, arial, sans-serif ;
+}
+
+a { color: #003399; text-decoration: underline; }
+a:visited { color: black; }
+a:hover { color: #0099FF; }
+
+h1 {
+	font-size: 2.7em;
+	font-weight: normal;
+	line-height: 0.8em;
+	padding: 0.6em 0 0.2em 2%;
+	margin: 0;
+	border-bottom: 1px dashed #E6E6FA;
+}
+
+h2, h3, h4 { font-weight: normal; }
+
+h1, h2, h3, h4, h5, h6 {
+	color: #804000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+	margin-top: 1.5em;
+}
+
+img.framed {
+	border: solid 1px #aaa;
+	padding: 1px;
+/*  max-width: 95%;*/
+}
+
+/* Non-HTML5 browser support */
+section, article, aside, footer, header, nav, hgroup {
+	display:block;
+}
+
+/*** Common base classes *********************************/
+
+.clear {
+	clear: both;
+	width: 0;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+}
+
+/* Hide content */
+.skip { 
+	position: absolute;
+	margin-left: -999px;
+	width: 990px;
+}
+
+.error {
+	color: #FF3333;
+}
+
+.errorBox {
+	padding: 5px 0;
+	font-weight: bold;
+}
+
+.buttonBox {
+	padding: 8px 0;
+}
+
+/*** Forms *********************************/
+
+form {
+	padding: 7px 5px;
+	background-color: #EEEEEE;
+}
+
+form dl {
+	display: inline;
+	float: left;
+	margin: 0 34px 10px 0;
+	position: relative;
+	width: 225px;
+}
+
+form dl dt, form dl dd {
+	float: left;
+	margin: 0;
+}
+
+form dl dt {
+	margin-bottom: 2px;
+}
+
+label {
+	width: 100%;
+	color: #444444;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+input, select, textarea {
+	border: 1px solid #777777;
+	padding: 2px 1px;
+	width: 300px;
+}
+
+input.error, select.error, textarea.error {
+	border: 1px solid #FF3333;
+}
+
+button {
+	padding: 0 10px;
+}
+
+/*** Layout Divs *********************************/
+#container {
+	font-size: 0.8em;
+	max-width: 100em;
+	margin: auto;
+	border: 1px solid #aaa;
+	border-top: 0;
+	background: white;
+}
+
+#main {
+	background: 0 white;
+	padding: 0 1% 20px 50px;
+	line-height: 1.5em;
+	width: 60%;
+	float: left;
+}
+
+/*** Header *********************************/
+header {
+	background: url(img/logo.jpg) 0 0 no-repeat black;
+	height: 64px;
+	padding: 0 4%;
+	text-align: right;
+	line-height: 54px;
+	font-size: 40px;
+	overflow: hidden;
+	letter-spacing: -2px;
+	margin: 0;
+}
+
+header a#logo {
+	color: white;
+	text-decoration: none;
+}
+
+header a#logo:hover,
+header a#logo:visited {
+	color: white;
+}
+
+/* Invert letter(s) like a block cursor */
+header a#logo span {
+	color: black;
+	background: white;
+	padding-right: 0.1em;
+	font-weight: bold;
+}
+
+/*** Top Navigation *********************************/
+nav#top {
+	background: url(img/topnav_bg.jpg) #5A6A5A;
+}
+
+nav#top ul {
+	padding: 5px 5%;
+	margin: 0;
+	text-align: right;
+	color: #FF8040;
+}
+
+nav#top li {
+	font-size: 1.2em;
+	display: inline;
+	list-style-type: none;
+	border-left: 1px solid white;
+	padding: 0 10px 0 15px;
+	font-weight: bold;
+}
+
+nav#top li.first {
+	border-left: 0;
+}
+
+nav#top li a {
+	color: white;
+	text-decoration: none;
+}
+
+nav#top li a:hover {
+	color: #C0C0C0;
+}
+
+/*** Side Bar *********************************/
+aside {
+	margin: 1em 2%;
+	width: 26%;
+	min-width: 10em;
+	float: right;
+	border-left: 1px dotted #aaa;
+}
+
+aside dt {
+	font-size: 1.2em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #804000;
+	padding: 0.5em;
+	margin-top: 1em;
+	border-top: 1px dotted #aaa;
+}
+
+aside dl {
+	padding: 0 0 1em 5%;
+	margin: 0;
+}
+
+aside dd {
+	padding: 0;
+	margin: 0.4em 0;
+	font-size: 0.9em;
+	line-height: 1.5em;
+}
+
+aside dl.portrait dd {
+	min-height: 130px;
+}
+
+aside dl.portrait img {
+	float: right;
+	margin: 0 0 0.5em 1em;
+}
+
+aside dl.news td {
+	vertical-align: top;
+}
+
+aside dl.news td.date {
+	width: 6em;
+/*	text-align: right;*/
+}
+
+/*** Footer with meta navigation ******************************/
+footer {
+	margin: 5px 20px 10px;
+	padding-top: 5px;
+	width: 65%;
+	border-top: 1px dotted #AAAAAA;
+}
+
+nav#meta ul {
+	width: 200px;
+	margin: 0 auto;
+}
+
+nav#meta li {
+	display: inline;
+	list-style-type: none;
+	padding: 0 8px;
+	font-size: 11px;
+}
+
+nav#meta a {
+	color: #999999;
+}
+nav#meta a:hover {
+	color: #777777; 
+}
+
+/*** Miscelanious components *************************/
+img.portrait {
+	width: 92px;
+	height: 132px;
+}
+
+/*** Contact Message ************************************/
+.contact form dl.message textarea {
+	width: 700px;
+	height: 150px;
+}
+
+.contact form dl.captchaCode {
+	width: 320px;
+}
+
+/*** Skills *************************************/
+.skills ul {
+	line-height: 2em;
+}
+
+/*** Imprint ************************************/
+.imprint address {
+	margin-left: 2em;
+}

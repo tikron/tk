@@ -1,0 +1,27 @@
+<aside>
+	<dl class="portrait">
+		<dt>Willkommen</dt>
+		<dd>
+			<img src="/images/portrait.jpg" alt="T. Kruse" class="framed" />
+			Auf dieser Website finden Sie ein kurzes Portrait zu meinen Erfahrungen und Kenntnissen als Webentwickler Java Enterprise.
+			Ich betreibe noch eine weitere private Website.
+			Falls Sie einen Blick darauf werfen möchten oder an Code-Beispielen interessiert sind, sprechen Sie mich gerne an.
+			Möglicherweise kann ich Sie bei der Umsetzung Ihrer Projekte unterstützen.
+		</dd>
+	</dl>
+	<dl class="news">
+		<dt>Aktuelles</dt>
+		<dd>
+			<table>
+				<tbody>
+					<tr><td class="date">5.03.2015</td><td class="message">Erste Veröffentlichung mit Inhalt und Design.</td></tr>
+					<tr><td class="date">8.09.2014</td><td class="message">Domain geht online.</td></tr>
+				</tbody>
+			</table>
+		</dd>
+	</dl>
+	<dl class="info">
+		<dt>Informationen</dt>
+		<dd>&copy; 2015 Titus Kruse</dd>
+	</dl>
+</aside>

@@ -1,0 +1,44 @@
+/* 
+* TK (Print-Stylesheet)
+* Copyright (c) 2010 by Titus Kruse
+*/
+@charset "utf-8";
+
+/*** HTML-Tag styles *********************************/
+
+/* Print text with serifs */
+body {
+	background: white;
+	color: black;
+	font-family: georgia, "Times New Roman", "Times serif";
+}
+
+/* Use screen font for header */
+a#logo {
+	text-align: right;
+	line-height: 0.8em;
+	font-size: 3em;
+	font-family: verdana, arial, sans-serif;
+	letter-spacing: -3px;
+}
+
+/* No special decoration of links */
+a#logo {
+	text-decoration: none;
+}
+
+/* Don't print any navigation menues */
+.skip, nav#top, nav#meta, aside {
+	display: none;
+}
+
+/* Floating */
+.fright {
+	float: right;
+	margin: 0 0 1em 1em;
+}
+
+.fleft {
+	float: left;
+	margin: 0 1em 1em 0;
+}
