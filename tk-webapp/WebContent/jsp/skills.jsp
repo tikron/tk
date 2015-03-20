@@ -23,10 +23,12 @@
 						<li>Einsatz von OpenSource-Frameworks und -Tools</li>
 						<li>Konfiguration und Betrieb Linux Rootserver</li>
 						<li>Programmierung Java EE unter Eclipse IDE (Frameworks JSF, Spring, Struts, Hibernate)</li>
-						<li>Webdesign mit JSP, HTML und CSS</li>
+						<li>Webdesign mit JSP, HTML, CSS und Javascript</li>
 						<li>IBM Websphere Application Server, Apache HTTP Server, Apache Tomcat</li>
 						<li>Datenbanken DB2, MySQL und Microsoft Access</li>
 						<li>Softwareentwicklung, Datenbankdesign und Administration IBM iSeries</li>
+						<li>Kundensupport und Einarbeitung von Kollegen</li>
+						<li>Dokumentation in englischer Sprache</li>
 					</ul>
 				</section>
 				<%@ include file="include/sub-nav.jspf"%>

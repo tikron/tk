@@ -41,7 +41,7 @@
 						Die Ausgabe von Informationen erfolgte damals auf dem sogenannten Green Screen und auf Kettendruckern.
 						Der Vorteil dieser Systeme lag allerdings in der für damalige Verhältnisse hohen Verarbeitungsgeschwindigkeit großer Datenmengen.
 						Meine Ausbildung war praxisorientiert: 
-						Ich hatte direkten Kundenkontakt und konnte bereits alle Bereichen der Datenverarbeitung kennenlernen.
+						Ich hatte direkten Kundenkontakt und wurde in allen Bereichen der Datenverarbeitung eingesetzt.
 					</p>
 					<h2>Anwendungsentwickler</h2>
 					<p> 
@@ -73,14 +73,14 @@
 					</p>
 					<p>
 						Bald darauf folgte eine Anstellung als Java-Anwendungsentwickler in einem namhaften Hamburger Softwareunternehmen.
-						Dort bin ich als Entwickler an der Programmierung komplexer eCommerce-Systeme auf Basis des IBM Websphere Commerce Frameworks beteiligt.
-						Dabei handelt es sich um hochperformante, mehrschichtige, verteilte Internetapplikationen.
+						Dort war ich als Entwickler an der Programmierung und dem Betrieb komplexer eCommerce-Systeme auf Basis des IBM Websphere Commerce Frameworks beteiligt.
+						Es handelte sich dabei um hochperformante, mehrschichtige, verteilte Internetapplikationen.
 						Meine dabei erworbenen Kenntnisse sind sehr vielfältig:
 						Von der detailgetreuen Umsetzung grafischer Anforderungen des Kunden, über individuelle Anpassungen der Geschäftslogik und der Datenbank des Frameworks bis hin zur ständigen Optimierung der Systemperformance.
 						Weitere Kenntnisse sind Search Engine Optimization, Datenanalyse, Konfiguration der Application Server auf Linux und IBM iSeries sowie der Kundensupport.     
 					</p>
 					<p>
-						Auf der folgenden Seite erhalten Sie eine <a href="/skills.html">Zusammenfassung meiner Kenntnisse und Fähigkeiten</a>.
+						Möchten Sie eine Zusammenfassung meiner Kenntnisse und Fähigkeiten lesen? Auf der <a href="/skills.html">folgenden Seite erhalten Sie einen Überblick</a>.
 					</p>
 				</section>
 				<%@ include file="include/sub-nav.jspf"%>

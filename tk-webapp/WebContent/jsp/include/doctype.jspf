@@ -1,1 +1,8 @@
 <!DOCTYPE HTML>
+<!--
+	Warum ist der HTML-Code unsauber eingerückt? 
+
+	Der HTML-Code wird durch Java Server Pages (JSP) generiert. Dabei entstehen Leerzeilen, die zu unnötigem Traffic führen. 
+	Um dies zu vermeiden, verwende ich die mit JSP2.1 eingeführte Direktive "trimDirectiveWhitespaces". Ein Nebeneffekt ist
+	dabei leider der unsauber eingerückte HTML-Code.  
+-->
