@@ -67,7 +67,7 @@
 					<h2>Web Development</h2>
 					<p>
 						In der Vergangenheit wurde ein nicht unerheblicher Teil der Arbeitszeit mit der Analyse und Anpassungen von vielfach redundantem Code aufgewendet.
-						Mit dem Aufkommen von Java 1998 sind mir deshalb schnell die Vorteile einer plattformunabhängigen, objektorientierten Programmiersprache bewusst geworden. 
+						Mit dem Aufkommen von Java 1998 (Version 1.2) sind mir deshalb schnell die Vorteile einer plattformunabhängigen, objektorientierten Programmiersprache bewusst geworden.
 						Neben meiner beruflichen Tätigkeit habe ich deshalb mit Java einige Desktopanwendungen realisiert. 
 						Um die dabei erworbenen Kenntnisse zu erweitern, nahm ich 2007 an einer	Fortbildung zum Softwareentwickler Java/J2EE teil, bei der ich auch das Zertifikat "Sun Certified Programmer" erwarb.
 					</p>
