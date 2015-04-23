@@ -18,7 +18,7 @@ function TK(options) {
 		_root = this;
 		_cfg = this.config;
 		_ui = {
-				goup: $("#goup"),
+				goup: $("#goup")
 		};
 		_bindUIActions();
 //		console.log(_cfg);
@@ -32,15 +32,15 @@ function TK(options) {
 	_bindGoUpButton = function() {
 		// Calculate percentage horizontal position relative to window dimensions. Unfortunally a percentage value is expected by the plugin.
 		var windowWidth = $(window).innerWidth();
-		console.log(windowWidth);
+//		console.log(windowWidth);
 		var containerWidth = $("#container").width();
-		console.log(containerWidth);
+//		console.log(containerWidth);
 		var containerPadding = 60;
 		var marginX = Math.max((100 - ((containerWidth - containerPadding * 2) * 100 / windowWidth)) / 2, 0);
 		_ui.goup.goup({
 			marginX : marginX,
 			marginY : 10,
-			scrolltime : 500,
+			scrolltime : 500
 		});
 	}
 
