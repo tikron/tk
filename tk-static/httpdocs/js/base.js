@@ -18,7 +18,7 @@ function TK(options) {
 		_root = this;
 		_cfg = this.config;
 		_ui = {
-				goup: $("#goup")
+				goup: $('#goup')
 		};
 		_bindUIActions();
 //		console.log(_cfg);
@@ -33,7 +33,7 @@ function TK(options) {
 		// Calculate percentage horizontal position relative to window dimensions. Unfortunally a percentage value is expected by the plugin.
 		var windowWidth = $(window).innerWidth();
 //		console.log(windowWidth);
-		var containerWidth = $("#container").width();
+		var containerWidth = $('#container').width();
 //		console.log(containerWidth);
 		var containerPadding = 60;
 		var marginX = Math.max((100 - ((containerWidth - containerPadding * 2) * 100 / windowWidth)) / 2, 0);
@@ -92,9 +92,9 @@ function TK(options) {
 	 */
 	this.formatUrl = function(field) {
 		var value = $(field).val();
-		if (value.length > 0 && value.indexOf("http:") != 0
-				&& value.indexOf("https:") != 0) {
-			$(field).val("http://" + value);
+		if (value.length > 0 && value.indexOf('http:') != 0
+				&& value.indexOf('https:') != 0) {
+			$(field).val('http://' + value);
 		}
 	}
 
