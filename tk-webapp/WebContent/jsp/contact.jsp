@@ -15,7 +15,7 @@
 				<section id="main" class="${pageId}">
 					<h1>Kontakt</h1>
 					<p>Falls Sie per E-Mail Kontakt zu mir aufnehmen möchten, können Sie folgende E-Mail-Adresse verwenden:</p>
-					<a id="email_link" href="#"></a>
+					<a class="email_link" href="#"></a>
 					<%--
 					<form id="contactMessage" action="/webapp/sendContactMessage.html" method="post">
 						<dl>
@@ -55,11 +55,4 @@
 		</div>
 		<div id="goup"></div>
 	</body>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			var contactEmailElement = $('#email_link');
-			contactEmailElement.attr('href', tk.getContactEmailLink());
-			contactEmailElement.html(tk.getContactEmailText());
-		});
-	</script>
 </html>

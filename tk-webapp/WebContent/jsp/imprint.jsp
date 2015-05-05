@@ -14,7 +14,7 @@
 				<%@ include file="include/top-nav.jspf"%>
 				<section id="main" class="${pageId}">
 					<h1>Impressum</h1>
-					<div id="address"></div>
+					<div class="address"></div>
 					<p>
 						Diese Adresse ist jedoch nur für Schriftverkehr vorgesehen, der nicht anders als auf postalischem Weg abgewickelt werden kann.
 						Für alle anderen Fälle steht unter <a href="${jspPath}contact${jspSuffix}">Kontakt</a> eine E-Mail-Adresse zur Verfügung.
@@ -42,9 +42,4 @@
 		</div>
 		<div id="goup"></div>
 	</body>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('#address').append(tk.getAddressHtml());
-		});
-	</script>
 </html>

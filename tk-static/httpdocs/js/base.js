@@ -8,6 +8,7 @@ function TK(options) {
 	var _cfg;
 	var _text = {
 			email: {address: 'mail@tituskruse.de', subject: 'Kontaktanfrage', body: 'Sehr%20geehrter%20Herr%20Kruse%2C'},
+			address: {headline: 'Diese Website wird von {0} vertreten. Die Postanschrift lautet:'},
 			postal : {name: 'Titus Kruse', address: 'Birnweg 2', city: '22335 Hamburg', country: 'Germany'}
 	}
 
@@ -20,8 +21,33 @@ function TK(options) {
 		_ui = {
 				goup: $('#goup')
 		};
+		_updateUI();
 		_bindUIActions();
 //		console.log(_cfg);
+	}
+
+	/**
+	 * Substitute placeholders with string values. A placeholder consists of two braces including an index number like {0}. 
+	 * 
+	 * @param {String}
+	 *          str The string containing the placeholders
+	 * @param {Array}
+	 *          arr The array of values to substitute
+	 */
+	this.substitute = function(str, arr) {
+		var i, pattern, re, n = arr.length;
+		for (i = 0; i < n; i++) {
+			pattern = '\\{' + i + '\\}';
+			re = new RegExp(pattern, 'g');
+			str = str.replace(re, arr[i]);
+		}
+		return str;
+	} 
+	
+	_updateUI = function() {
+		$('div.address').append(_getAddressHtml());
+		$('a.email_link').attr('href', _getContactEmailLink());
+		$('a.email_link').html(_getContactEmailText());
 	}
 
 	_bindUIActions = function() {
@@ -49,7 +75,7 @@ function TK(options) {
 	 * 
 	 * @returns {String} The email address link.
 	 */
-	this.getContactEmailLink = function() {
+	_getContactEmailLink = function() {
 		return 'mailto:' + _text.email.address + '?subject=' + _text.email.subject + '&body=' + _text.email.body;
 	}
 
@@ -58,7 +84,7 @@ function TK(options) {
 	 * 
 	 * @returns {String} The email address.
 	 */
-	this.getContactEmailText = function() {
+	_getContactEmailText = function() {
 		return _text.email.address;
 	}
 
@@ -67,7 +93,7 @@ function TK(options) {
 	 * 
 	 * @returns Postal address object.
 	 */
-	this.getPostalAddress = function() {
+	_getPostalAddress = function() {
 		return _text.postal;
 	}
 
@@ -76,10 +102,10 @@ function TK(options) {
 	 * 
 	 * @returns {String} The HTML code.
 	 */
-	this.getAddressHtml = function() {
-		var pa = this.getPostalAddress();
-		return '<p>' + 'Diese Website wird von ' + pa.name
-				+ ' vertreten. Die Postanschrift lautet:' + '</p>' + '<address>'
+	_getAddressHtml = function() {
+		var pa = _getPostalAddress();
+		var headline = tk.substitute(_text.address.headline, [pa.name]);
+		return '<p>' + headline + '</p>' + '<address>'
 				+ pa.name + '<br />' + pa.address + '<br />' + pa.city + '<br />'
 				+ pa.country + '</address>';
 	},
@@ -90,7 +116,7 @@ function TK(options) {
 	 * @param field
 	 *          The input field.
 	 */
-	this.formatUrl = function(field) {
+	_formatUrl = function(field) {
 		var value = $(field).val();
 		if (value.length > 0 && value.indexOf('http:') != 0
 				&& value.indexOf('https:') != 0) {
