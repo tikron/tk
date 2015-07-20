@@ -13,15 +13,15 @@
 		<dd>
 			<table>
 				<tbody>
-					<tr><td class="date">5.03.2015</td><td class="message">Erste Veröffentlichung mit Inhalt und Design.</td></tr>
-					<tr><td class="date">8.09.2014</td><td class="message">Domain geht online.</td></tr>
-					<tr><td class="date">5.07.2015</td><td class="message">Source-Code auf <a href="https://github.com/tikron/tk">GitHub</a>.</td></tr>
+					<tr><td class="date"><time datetime="2015-07-05">5.07.2015</time></td><td class="message">Source-Code auf <a href="https://github.com/tikron/tk">GitHub</a>.</td></tr>
+					<tr><td class="date"><time datetime="2015-03-05">5.03.2015</time></td><td class="message">Erste Veröffentlichung mit Inhalt und Design.</td></tr>
+					<tr><td class="date"><time datetime="2014-09-08">8.09.2014</time></td><td class="message">Domain geht online.</td></tr>
 				</tbody>
 			</table>
 		</dd>
 	</dl>
 	<dl class="info">
 		<dt>Informationen</dt>
-		<dd>&copy; 2015 Titus Kruse</dd>
+		<dd>&copy; <time datetime="2015">2015</time> Titus Kruse</dd>
 	</dl>
 </aside>
