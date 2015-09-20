@@ -4,8 +4,8 @@
 		<dd>
 			<img src="/images/portrait.jpg" alt="T. Kruse" class="framed" />
 			Auf dieser Website finden Sie ein kurzes Portrait zu meinen Erfahrungen und Kenntnissen als Webentwickler Java Enterprise.
-			Ich betreibe noch eine weitere private Website.
-			Falls Sie einen Blick darauf werfen möchten oder an Code-Beispielen interessiert sind, nehmen Sie gerne <a href="contact.html">Kontakt</a> zu mir auf.
+			Falls Sie an meiner Unterstützung interessiert sind, nehmen Sie gerne <a href="contact.html">Kontakt</a> zu mir auf.
+			<%-- Auf Wunsch liefere ich Ihnen eine Arbeitsprobe, die Code in HTML5, CSS3, jQuery, Spring und JPA/Hibernate enthält.  --%>
 		</dd>
 	</dl>
 	<dl class="news">
@@ -13,6 +13,7 @@
 		<dd>
 			<table>
 				<tbody>
+					<tr><td class="date"><time datetime="2015-09-19">19.09.2015</time></td><td class="message">Werdegang aktualisiert.</td></tr>
 					<tr><td class="date"><time datetime="2015-07-05">5.07.2015</time></td><td class="message">Source-Code auf <a href="https://github.com/tikron/tk">GitHub</a>.</td></tr>
 					<tr><td class="date"><time datetime="2015-03-05">5.03.2015</time></td><td class="message">Erste Veröffentlichung mit Inhalt und Design.</td></tr>
 					<tr><td class="date"><time datetime="2014-09-08">8.09.2014</time></td><td class="message">Domain geht online.</td></tr>

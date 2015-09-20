@@ -22,7 +22,7 @@
 						<li>Programmierung mehrschichtiger, verteilter Internetapplikationen für den Versandhandel</li>
 						<li>Einsatz von OpenSource-Frameworks und -Tools</li>
 						<li>Konfiguration und Betrieb Linux Rootserver</li>
-						<li>Programmierung Java EE unter Eclipse IDE (Frameworks JSF, Spring, Struts, Hibernate)</li>
+						<li>Programmierung Java EE unter Eclipse IDE (Frameworks JSF, Spring, Struts, JPA/Hibernate)</li>
 						<li>Webdesign mit JSP, HTML, CSS und Javascript</li>
 						<li>IBM Websphere Application Server, Apache HTTP Server, Apache Tomcat</li>
 						<li>Datenbanken DB2, MySQL und Microsoft Access</li>

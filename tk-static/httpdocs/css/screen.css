@@ -256,7 +256,7 @@ aside dl.news td {
 
 aside dl.news td.date {
 	width: 6em;
-/*	text-align: right;*/
+	text-align: right;
 }
 
 /*** Footer with meta navigation ******************************/

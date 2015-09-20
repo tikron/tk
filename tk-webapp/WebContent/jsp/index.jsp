@@ -72,12 +72,16 @@
 						Um die dabei erworbenen Kenntnisse zu erweitern, nahm ich 2007 an einer	Fortbildung zum Softwareentwickler Java/J2EE teil, bei der ich auch das Zertifikat "Sun Certified Programmer" erwarb.
 					</p>
 					<p>
-						Bald darauf folgte eine Anstellung als Java-Anwendungsentwickler in einem namhaften Hamburger Softwareunternehmen.
+						Bald darauf folgte eine Anstellung als Java-Anwendungsentwickler bei einem namhaften Hamburger Softwareunternehmen.
 						Dort war ich als Entwickler an der Programmierung und dem Betrieb komplexer eCommerce-Systeme auf Basis des IBM Websphere Commerce Frameworks beteiligt.
-						Es handelte sich dabei um hochperformante, mehrschichtige, verteilte Internetapplikationen.
-						Meine dabei erworbenen Kenntnisse sind sehr vielfältig:
-						Von der detailgetreuen Umsetzung grafischer Anforderungen des Kunden, über individuelle Anpassungen der Geschäftslogik und der Datenbank des Frameworks bis hin zur ständigen Optimierung der Systemperformance.
-						Weitere Kenntnisse sind Search Engine Optimization, Datenanalyse, Konfiguration der Application Server auf Linux und IBM iSeries sowie der Kundensupport.     
+						Es handelte sich dabei um performante, mehrschichtige Internetapplikationen auf verteilten Plattformen.
+						Meine dabei erworbenen Kenntnisse sind vielfältig:
+						Von der detailgetreuen Umsetzung grafischer Anforderungen des Kunden, über individuelle Anpassungen der Geschäftslogik und der Datenbank des WebSphere Frameworks bis hin zur Optimierung des Codes hinsichtlich Wartbarkeit und Performance.
+						Weitere Kenntnisse sind Search Engine Optimization, Datenanalyse, Konfiguration der Application Server auf Linux und IBM iSeries sowie der Kundensupport.
+					</p>
+					<p>
+						Aktuell bin ich bei einem Anbieter von Incentive-Lösungen als Softwareentwickler tätig.
+						Auch dort entwickle ich gemeinsam im Team Online Shops mit Hilfe innovativer, benutzerfreundlicher Frontend-Technologien.      
 					</p>
 					<p>
 						Möchten Sie eine Zusammenfassung meiner Kenntnisse und Fähigkeiten lesen? Auf der <a href="/skills.html">folgenden Seite erhalten Sie einen Überblick</a>.
