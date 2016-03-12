@@ -44,18 +44,18 @@ function TK(options) {
 		return str;
 	} 
 	
-	_updateUI = function() {
+	var _updateUI = function() {
 		$('div.address').append(_getAddressHtml());
 		$('a.email_link').attr('href', _getContactEmailLink());
 		$('a.email_link').html(_getContactEmailText());
 	}
 
-	_bindUIActions = function() {
+	var _bindUIActions = function() {
 		// "Go Up" scrolling button
 		_bindGoUpButton();
 	}
 	
-	_bindGoUpButton = function() {
+	var _bindGoUpButton = function() {
 		// Calculate percentage horizontal position relative to window dimensions. Unfortunally a percentage value is expected by the plugin.
 		var windowWidth = $(window).innerWidth();
 //		console.log(windowWidth);
@@ -75,7 +75,7 @@ function TK(options) {
 	 * 
 	 * @returns {String} The email address link.
 	 */
-	_getContactEmailLink = function() {
+	var _getContactEmailLink = function() {
 		return 'mailto:' + _text.email.address + '?subject=' + _text.email.subject + '&body=' + _text.email.body;
 	}
 
@@ -84,7 +84,7 @@ function TK(options) {
 	 * 
 	 * @returns {String} The email address.
 	 */
-	_getContactEmailText = function() {
+	var _getContactEmailText = function() {
 		return _text.email.address;
 	}
 
@@ -93,7 +93,7 @@ function TK(options) {
 	 * 
 	 * @returns Postal address object.
 	 */
-	_getPostalAddress = function() {
+	var _getPostalAddress = function() {
 		return _text.postal;
 	}
 
@@ -102,13 +102,13 @@ function TK(options) {
 	 * 
 	 * @returns {String} The HTML code.
 	 */
-	_getAddressHtml = function() {
+	var _getAddressHtml = function() {
 		var pa = _getPostalAddress();
 		var headline = tk.substitute(_text.address.headline, [pa.name]);
 		return '<p>' + headline + '</p>' + '<address>'
 				+ pa.name + '<br />' + pa.address + '<br />' + pa.city + '<br />'
 				+ pa.country + '</address>';
-	},
+	}
 
 	/**
 	 * Formats an URL input field value.
@@ -116,7 +116,7 @@ function TK(options) {
 	 * @param field
 	 *          The input field.
 	 */
-	_formatUrl = function(field) {
+	var _formatUrl = function(field) {
 		var value = $(field).val();
 		if (value.length > 0 && value.indexOf('http:') != 0
 				&& value.indexOf('https:') != 0) {
