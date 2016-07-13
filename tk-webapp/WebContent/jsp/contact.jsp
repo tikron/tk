@@ -22,27 +22,22 @@
 							<dt><label for="name" id="nameLabel">Name *:</label></dt>
 							<dd><input id="name" name="name" type="text" value=""/></dd>
 						</dl>
-						<div class="clear"></div>
 						<dl>
 							<dt><label for="email" id="emailLabel">E-Mail-Adresse *:</label></dt>
 							<dd><input id="email" name="email" type="text" value=""/></dd>
 						</dl>
-						<div class="clear"></div>
 						<dl class="message">
 							<dt><label for="message" id="messageLabel">Nachricht an Tikron *:</label></dt>
 							<dd><textarea id="message" name="message" rows="10" cols="60"></textarea></dd>
 						</dl>
-						<div class="clear"></div>
 						<dl>
 							<dt><a href="#" onclick="reloadCaptchaImage('captchaImage', '/webapp/generateCaptchaImage.html');">Zeichen nicht lesbar?</a></dt>
 							<dd><img id="captchaImage" src="/webapp/generateCaptchaImage.html" alt="Verifizierungs-Code" title="Verifizierungs-Code" /></dd>
 						</dl>
-						<div class="clear"></div>
 						<dl class="captchaCode">
 							<dt><label for="captchaCode" id="captchaCodeLabel">Bitte gebe die abgebildeten Zeichen hier ein *:</label></dt>
 							<dd><input id="captchaCode" name="captchaCode" type="text" value=""/></dd>
 						</dl>
-						<div class="clear"></div>
 						<div class="buttonBox">
 							<button type="submit">Nachricht senden</button>
 						</div>

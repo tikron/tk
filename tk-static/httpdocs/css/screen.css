@@ -54,13 +54,13 @@ section, article, aside, footer, header, nav, hgroup {
 
 /*** Common base classes *********************************/
 
-.clear {
-	clear: both;
-	width: 0;
-	height: 0;
+.clear:after {
+	visibility: hidden;
+	display: block;
 	font-size: 0;
-	line-height: 0;
-	overflow: hidden;
+	content: " ";
+	clear: both;
+	height: 0;
 }
 
 /* Hide content */
@@ -198,7 +198,7 @@ nav#top li {
 	font-weight: bold;
 }
 
-nav#top li.first {
+nav#top li:first-child {
 	border-left: 0;
 }
 
@@ -261,6 +261,7 @@ aside dl.news td.date {
 
 /*** Footer with meta navigation ******************************/
 footer {
+	clear: both;
 	margin: 5px 20px 10px;
 	padding-top: 5px;
 	width: 65%;
