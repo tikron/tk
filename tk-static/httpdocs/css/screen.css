@@ -193,13 +193,12 @@ nav#top li {
 	font-size: 1.2em;
 	display: inline;
 	list-style-type: none;
-	border-left: 1px solid white;
 	padding: 0 10px 0 15px;
 	font-weight: bold;
 }
 
-nav#top li:first-child {
-	border-left: 0;
+nav#top li:not(:first-child) {
+	border-left: 1px solid white;
 }
 
 nav#top li a {
