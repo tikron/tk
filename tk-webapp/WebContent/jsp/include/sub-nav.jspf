@@ -13,6 +13,7 @@
 		<dd>
 			<table>
 				<tbody>
+					<tr><td class="date"><time datetime="2017-03-24">24.03.2017</time></td><td class="message">Portrait aktualisiert.</td></tr>
 					<tr><td class="date"><time datetime="2015-09-19">19.09.2015</time></td><td class="message">Werdegang aktualisiert.</td></tr>
 					<tr><td class="date"><time datetime="2015-07-05">5.07.2015</time></td><td class="message">Source-Code auf <a href="https://github.com/tikron/tk">GitHub</a>.</td></tr>
 					<tr><td class="date"><time datetime="2015-03-05">5.03.2015</time></td><td class="message">Erste Veröffentlichung mit Inhalt und Design.</td></tr>
