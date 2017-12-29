@@ -7,9 +7,9 @@
 		<link rel="stylesheet" type="text/css" media="print" href="${staticPath}css/print.css" />
 		<link rel="stylesheet" type="text/css" media="screen, projection" href="${staticPath}css/screen.css" />
 		<link rel="shortcut icon" href="${staticPath}favicon.ico" />
-		<script type="text/javascript" src="${staticPath}js/jquery-1.11.1.min.js"></script>
-		<script type="text/javascript" src="${staticPath}js/jquery.goup.min.js"></script>
-		<script type="text/javascript" src="${staticPath}js/base.js" ></script>
+		<script src="${staticPath}js/jquery-1.11.1.min.js"></script>
+		<script src="${staticPath}js/jquery.goup.min.js"></script>
+		<script src="${staticPath}js/base.js" ></script>
 		<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 		<c:import url="component/title.jsp">
 			<c:param name="pageId" value="${pageId}"/>
