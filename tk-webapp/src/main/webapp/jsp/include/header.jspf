@@ -3,7 +3,6 @@
 <header id="about" class="py-5 bg-image-full"
 	style="background-image: url('${staticPath}css/img/louis-reed-747404-unsplash-1-lg.jpg');">
 	<div class="container">
-		<img class="img-fluid d-block border border-white rounded" style="border-width: 5px !important;"
-			src="${staticPath}image/portrait.jpg" alt="">
+		<img class="img-fluid d-block border border-white rounded portrait" src="${staticPath}image/portrait.jpg" alt="Portrait Titus Kruse">
 	</div>
 </header>

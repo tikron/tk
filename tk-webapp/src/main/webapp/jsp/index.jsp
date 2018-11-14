@@ -26,10 +26,10 @@
 			<p>Mein Interesse liegt vorrangig auf Design Patterns und Clean Code. Den umfangreichen Fundus an Open Source
 				Software schätze ich als Quelle durchdachter und vielfach im Einsatz geprüfter Komponenten. Dazu zählen das Spring
 				Framework, das ORM Hibernate, die Apache Commons Library und viele mehr. Schon zu Zeiten des Green Screen hatte ich
-				den Anspruch, dass sich der Nutzer meiner Software damit wohl fühlen soll. Durch moderne CSS und
-				Javascript-Frameworks wie Bootstrap oder Angular ist es möglich, dem Benutzer Inhalte optimal zu präsentieren und
-				mit ihm in Interaktion zu treten. Insbesondere weil immer mehr Menschen Software nutzen, die eben nicht wie ein
-				Programmierer denken.</p>
+				den Anspruch, die - damals eher beruflichen - Anwender meiner Software sollen sich damit wohlfühlen. Durch moderne
+				CSS und Javascript-Frameworks wie Bootstrap oder Angular ist es möglich, dem Benutzer Inhalte optimal zu
+				präsentieren und mit ihm in Interaktion zu treten. Denn Software wird heute auch von Menschen genutzt, die eben
+				nicht wie ein Programmierer denken.</p>
 			<p>Wie viele Entwickler beziehe ich mein Fachwissen aus der einschlägigen Literatur. Manning Publications hat
 				dazu zum Beispiel einiges im Angebot. Zu diesem eher theoretischen Ansatz kann und sollte man seinen eigenen Code
 				Style aber auch durch das Studium fremden Codes immer wieder verbessern. Ich liebe es, mir Beispiele anderer

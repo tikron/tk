@@ -4,3 +4,7 @@
 */
 
 @charset "utf-8";
+
+.portrait {
+	border-width: 5px !important;
+}
