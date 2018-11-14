@@ -84,10 +84,10 @@
 	<section class="py-5">
 		<div class="container">
 			<h1>Kontakt</h1>
-			<p class="lead">Ich möchte den Typ kennenlernen</p>
+			<p class="lead">Sie möchten mich kennenlernen</p>
 			<p>Falls Sie mich gerne kennenlernen oder gar meine Dienste als Softwareentwickler in Anspruch nehmen möchten,
 				schreiben Sie mir bitte eine kurze E-Mail. Ich melde mich umgehend zurück. Vielen Dank!</p>
-			<a class="email_link" href="#">job@tituskruse.de</a>
+			<a class="email-link" href="#"></a>
 		</div>
 	</section>
 
