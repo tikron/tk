@@ -1,8 +1,8 @@
-<footer>
-	<nav id="meta">
-		<ul>
-			<li><a href="${jspPath}contact${jspSuffix}">Kontakt</a></li>
-			<li><a href="${jspPath}imprint${jspSuffix}">Impressum</a></li>
-		</ul>
-	</nav>
+
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+	<div class="container">
+		<p class="m-0 text-center text-white">Copyright © Titus Kruse 2018</p>
+	</div>
+	<!-- /.container -->
 </footer>

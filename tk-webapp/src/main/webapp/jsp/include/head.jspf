@@ -1,17 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-			<meta charset="UTF-8">
-		<meta name="author" content="Titus Kruse" />
-		<meta name="description" content="Kurzportrait zu meinen Erfahrungen und Kenntnissen als Webentwickler Java." />
-		<meta name="robots" content="${pageId == 'contact' || pageId == 'imprint' ? 'noindex,follow' : 'index,follow'}" />
-		<link rel="stylesheet" type="text/css" media="print" href="${staticPath}css/print.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="${staticPath}css/screen.css" />
-		<link rel="shortcut icon" href="${staticPath}favicon.ico" />
-		<script src="${staticPath}js/jquery-1.11.1.min.js"></script>
-		<script src="${staticPath}js/jquery.goup.min.js"></script>
-		<script src="${staticPath}js/base.js" ></script>
-		<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-		<c:import url="component/title.jsp">
-			<c:param name="pageId" value="${pageId}"/>
-		</c:import>
-				
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Titus Kruse" />
+<meta name="description" content="Kurzportrait zu meinen Erfahrungen und Kenntnissen als Webentwickler Java." />
+<meta name="robots" content="${pageId == 'contact' || pageId == 'imprint' ? 'noindex,follow' : 'index,follow'}" />
+<link rel="stylesheet" type="text/css" href="${staticPath}css/bootstrap-4.1.1.min.css" />
+<link rel="stylesheet" type="text/css" href="${staticPath}css/full-width-pics.css" />
+<link rel="stylesheet" type="text/css" href="${staticPath}css/base.css" />
+<link rel="shortcut icon" href="${staticPath}favicon.ico" />
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<c:import url="component/title.jsp">
+	<c:param name="pageId" value="${pageId}" />
+</c:import>
