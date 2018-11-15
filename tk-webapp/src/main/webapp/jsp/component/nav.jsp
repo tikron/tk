@@ -12,10 +12,10 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item<%-- active--%>"><a class="nav-link" href="#about">Über mich<%-- <span class="sr-only">(current)</span>--%>
+				<li class="nav-item<%-- active--%>"><a class="nav-link" href="/index.html#about">Über mich<%-- <span class="sr-only">(current)</span>--%>
 				</a></li>
-				<li class="nav-item"><a class="nav-link" href="#skills">Qualifikation</a></li>
-				<li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
+				<li class="nav-item"><a class="nav-link" href="/index.html#skills">Qualifikation</a></li>
+				<li class="nav-item"><a class="nav-link" href="/index.html#contact">Kontakt</a></li>
 			</ul>
 		</div>
 	</div>

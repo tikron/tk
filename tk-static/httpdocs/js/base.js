@@ -8,7 +8,6 @@ function TK(options) {
 	var _cfg;
 	var _text = {
 			email: {address: 'job@tituskruse.de', subject: 'Kontaktanfrage', body: 'Sehr%20geehrter%20Herr%20Kruse%2C'},
-			address: 'Birnweg 2, 22335 Hamburg, Germany',
 			postal : {name: 'Titus Kruse', address: 'Birnweg 2', city: '22335 Hamburg', country: 'Germany'},
 			phone: {label: '+49 40 59360711', number: '+494059360711'}
 	}
@@ -44,11 +43,12 @@ function TK(options) {
 	} 
 	
 	var _updateUI = function() {
-		$('.owner-address').append(_text.address);
-		$('a.owner-email').attr('href', _getContactEmailLink());
-		$('a.owner-email').html(_getContactEmailText());
-		$('a.owner-phone').attr('href', _getContactPhoneLink());
-		$('a.owner-phone').html(_text.phone.label);
+		$('.owner-address').append(_getAddressLine());
+		$('.owner-email').attr('href', _getContactEmailLink());
+		$('.owner-email').html(_getContactEmailText());
+		$('.owner-phone').attr('href', _getContactPhoneLink());
+		$('.owner-phone').html(_text.phone.label);
+		$('.imprint-address').append(_getAddressHtml());
 	}
 
 	var _bindUIActions = function() {
@@ -86,8 +86,8 @@ function TK(options) {
 	 * 
 	 * @returns Postal address object.
 	 */
-	var _getPostalAddress = function() {
-		return _text.postal;
+	var _getAddressLine = function() {
+		return  _text.postal.address + ', ' + _text.postal.city + ', ' + _text.postal.country;
 	}
 
 	/**
@@ -96,11 +96,7 @@ function TK(options) {
 	 * @returns {String} The HTML code.
 	 */
 	var _getAddressHtml = function() {
-		var pa = _getPostalAddress();
-		var headline = tk.substitute(_text.address.headline, [pa.name]);
-		return '<p>' + headline + '</p>' + '<address>'
-				+ pa.name + '<br />' + pa.address + '<br />' + pa.city + '<br />'
-				+ pa.country + '</address>';
+		return _text.postal.name + '<br />' + _text.postal.address + '<br />' + _text.postal.city + '<br />' + _text.postal.country;
 	}
 
 	/**
