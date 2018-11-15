@@ -1,5 +1,3 @@
 User-agent: *
 Disallow: /contact.html
 Disallow: /imprint.html
-User-agent: AhrefsBot
-Disallow: /
