@@ -8,7 +8,7 @@
 <link rel="stylesheet" type="text/css" href="${staticPath}css/bootstrap-4.1.1.min.css" />
 <link rel="stylesheet" type="text/css" href="${staticPath}css/full-width-pics.css" />
 <link rel="stylesheet" type="text/css" href="${staticPath}css/base.css" />
-<link rel="shortcut icon" href="${staticPath}favicon.ico" />
+<link rel="icon" type="image/x-icon" href="${staticPath}favicon.ico?v=6" />
 <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 <c:import url="component/title.jsp">
 	<c:param name="pageId" value="${pageId}" />
