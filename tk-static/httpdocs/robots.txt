@@ -1,3 +1,3 @@
 User-agent: *
-Disallow: /contact.html
+Disallow: /privacy.html
 Disallow: /imprint.html
