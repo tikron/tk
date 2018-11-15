@@ -8,8 +8,9 @@ function TK(options) {
 	var _cfg;
 	var _text = {
 			email: {address: 'job@tituskruse.de', subject: 'Kontaktanfrage', body: 'Sehr%20geehrter%20Herr%20Kruse%2C'},
-			address: {headline: 'Diese Website wird von {0} vertreten. Die Postanschrift lautet:'},
-			postal : {name: 'Titus Kruse', address: 'Birnweg 2', city: '22335 Hamburg', country: 'Germany'}
+			address: 'Birnweg 2, 22335 Hamburg, Germany',
+			postal : {name: 'Titus Kruse', address: 'Birnweg 2', city: '22335 Hamburg', country: 'Germany'},
+			phone: {label: '+49 40 59360711', number: '+494059360711'}
 	}
 
   this.config = $.extend({
@@ -43,9 +44,11 @@ function TK(options) {
 	} 
 	
 	var _updateUI = function() {
-		$('div.address').append(_getAddressHtml());
-		$('a.email-link').attr('href', _getContactEmailLink());
-		$('a.email-link').html(_getContactEmailText());
+		$('.owner-address').append(_text.address);
+		$('a.owner-email').attr('href', _getContactEmailLink());
+		$('a.owner-email').html(_getContactEmailText());
+		$('a.owner-phone').attr('href', _getContactPhoneLink());
+		$('a.owner-phone').html(_text.phone.label);
 	}
 
 	var _bindUIActions = function() {
@@ -67,6 +70,15 @@ function TK(options) {
 	 */
 	var _getContactEmailText = function() {
 		return _text.email.address;
+	}
+
+	/**
+	 * Returns the phone number link.
+	 * 
+	 * @returns {String} The phone number link.
+	 */
+	var _getContactPhoneLink = function() {
+		return 'tel:' + _text.phone.number;
 	}
 
 	/**

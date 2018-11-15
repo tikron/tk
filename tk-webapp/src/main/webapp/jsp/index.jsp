@@ -87,7 +87,7 @@
 			<p class="lead">Sie möchten mich kennenlernen</p>
 			<p>Falls Sie mich gerne kennenlernen oder gar meine Dienste als Softwareentwickler in Anspruch nehmen möchten,
 				schreiben Sie mir bitte eine kurze E-Mail. Ich melde mich umgehend zurück. Vielen Dank!</p>
-			<a class="email-link" href="#"></a>
+			<a class="owner-email" href="mailto:#"></a>
 		</div>
 	</section>
 
