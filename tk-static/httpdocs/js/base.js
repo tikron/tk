@@ -7,9 +7,9 @@ function TK(options) {
 	var _root;
 	var _cfg;
 	var _text = {
-			email: {address: 'mail@tituskruse.de', subject: 'Kontaktanfrage', body: 'Sehr%20geehrter%20Herr%20Kruse%2C'},
-			address: {headline: 'Diese Website wird von {0} vertreten. Die Postanschrift lautet:'},
-			postal : {name: 'Titus Kruse', address: 'Birnweg 2', city: '22335 Hamburg', country: 'Germany'}
+			email: {address: 'job@tituskruse.de', subject: 'Kontaktanfrage', body: 'Sehr%20geehrter%20Herr%20Kruse%2C'},
+			postal : {name: 'Titus Kruse', address: 'Birnweg 2', city: '22335 Hamburg', country: 'Germany'},
+			phone: {label: '+49 40 59360711', number: '+494059360711'}
 	}
 
   this.config = $.extend({
@@ -18,9 +18,7 @@ function TK(options) {
 	this.init = function() {
 		_root = this;
 		_cfg = this.config;
-		_ui = {
-				goup: $('#goup')
-		};
+		_ui = {};
 		_updateUI();
 		_bindUIActions();
 //		console.log(_cfg);
@@ -45,29 +43,15 @@ function TK(options) {
 	} 
 	
 	var _updateUI = function() {
-		$('div.address').append(_getAddressHtml());
-		$('a.email_link').attr('href', _getContactEmailLink());
-		$('a.email_link').html(_getContactEmailText());
+		$('.owner-address').append(_getAddressLine());
+		$('.owner-email').attr('href', _getContactEmailLink());
+		$('.owner-email').html(_getContactEmailText());
+		$('.owner-phone').attr('href', _getContactPhoneLink());
+		$('.owner-phone').html(_text.phone.label);
+		$('.imprint-address').append(_getAddressHtml());
 	}
 
 	var _bindUIActions = function() {
-		// "Go Up" scrolling button
-		_bindGoUpButton();
-	}
-	
-	var _bindGoUpButton = function() {
-		// Calculate percentage horizontal position relative to window dimensions. Unfortunally a percentage value is expected by the plugin.
-		var windowWidth = $(window).innerWidth();
-//		console.log(windowWidth);
-		var containerWidth = $('#container').width();
-//		console.log(containerWidth);
-		var containerPadding = 60;
-		var marginX = Math.max((100 - ((containerWidth - containerPadding * 2) * 100 / windowWidth)) / 2, 0);
-		_ui.goup.goup({
-			marginX : marginX,
-			marginY : 10,
-			scrolltime : 500
-		});
 	}
 
 	/**
@@ -89,12 +73,21 @@ function TK(options) {
 	}
 
 	/**
+	 * Returns the phone number link.
+	 * 
+	 * @returns {String} The phone number link.
+	 */
+	var _getContactPhoneLink = function() {
+		return 'tel:' + _text.phone.number;
+	}
+
+	/**
 	 * Returns the site owner address.
 	 * 
 	 * @returns Postal address object.
 	 */
-	var _getPostalAddress = function() {
-		return _text.postal;
+	var _getAddressLine = function() {
+		return  _text.postal.address + ', ' + _text.postal.city + ', ' + _text.postal.country;
 	}
 
 	/**
@@ -103,11 +96,7 @@ function TK(options) {
 	 * @returns {String} The HTML code.
 	 */
 	var _getAddressHtml = function() {
-		var pa = _getPostalAddress();
-		var headline = tk.substitute(_text.address.headline, [pa.name]);
-		return '<p>' + headline + '</p>' + '<address>'
-				+ pa.name + '<br />' + pa.address + '<br />' + pa.city + '<br />'
-				+ pa.country + '</address>';
+		return _text.postal.name + '<br />' + _text.postal.address + '<br />' + _text.postal.city + '<br />' + _text.postal.country;
 	}
 
 	/**

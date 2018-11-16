@@ -1,0 +1,26 @@
+/* 
+* TK (Default-Stylesheet)
+* Copyright (c) 2010 by Titus Kruse
+*/
+
+@charset "utf-8";
+
+.h2, h2 {
+	font-size: 1.5rem;
+}
+
+footer a {
+	color: rgba(255, 255, 255, .5);
+}
+
+footer a:hover {
+	color: rgba(255, 255, 255, .75);
+}
+
+.portrait {
+	border-width: 5px !important;
+}
+
+ol.upper-roman {
+	list-style-type: upper-roman;
+}

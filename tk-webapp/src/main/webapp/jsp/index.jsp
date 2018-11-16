@@ -4,93 +4,94 @@
 <%@ include file="include/environment.jspf"%>
 <c:set var="pageId" value="home" />
 <html lang="de">
-	<head>
-		<%@ include file="include/head.jspf"%>
-	</head>
-	<body>
-		<div id="container">
-			<div id="wrap">
-				<%@ include file="include/header.jspf"%>
-				<%@ include file="include/top-nav.jspf"%>
-				<section id="main" class="${pageId}">
-					<h1>Über mich</h1>
-					<h2>Schulzeit</h2>
-					<p>
-						Als 10-jähriger Schüler habe ich meine ersten logischen Schaltungen mit Fischer technik realisiert. 
-						In der Bücherhalle im benachbarten Stadtteil lagen Zeitschriften aus, in denen über ICs und Mikroprozessoren berichtet wurde.
-						Weitere Schaltungen habe ich dann auf selbst geätzten Platingen mit einfachen Logik-ICs hergestellt.
-						Langfristig mehr Freude sah ich allerdings in der Möglichkeit, Schaltungen immer wieder neu programmieren zu können.
-						Weil ich noch keinen eigenen Computer besaß, habe ich also kleine Programme in 6502-Maschinencode auf Papier geschrieben.
-					</p>
-					<p>
-						Im Elektronikfachmarkt standen die ersten Heimcomputer aus.
-						Auf einem Sinclair ZX 81 oder dem Commodore VC&nbsp;20 habe ich dort kleine Programme in Basic geschrieben.
-						Das machte Spaß.
-						Am nächsten Tag waren diese aber natürlich wieder gelöscht worden.
-						Meinen ersten eigenen Computer hatte ich dann 1981:	Eben den Commodore VC&nbsp;20 mit 8 Bit Prozessor und 5 KByte RAM.
-						Später folgten der Commodore 64 und ein Amiga 2000.
-						Größere Projekte waren die Erweiterung des Basic-Interpreters in 6510-Assembler oder eine Fakturierung, die im Betrieb meines Vaters eingesetzt wurde.
-						1985 habe ich schließlich ein Schülerpraktikum in einem Rechenzentrum mit digital VAX Systemen absolviert.   
-					</p>
-					<h2>Berufsausbildung</h2>
-					<p>
-						Zum Ende der Schulzeit 1986 war klar, dass ich beruflich etwas mit Computern machen möchte.
-						In der darauf folgenden Berufsausbildung zum Datenverarbeitungskaufmann (Fachinformatiker) konnte ich dann meine Begeisterung für die Programmierung auch beruflich erfolgreich umsetzen.
-						Gemeinsam im Team haben wir Software für das Verkehrswesen entwickelt, die auf einem IBM System/36 Mainframe lief.
-						Die Programmiersprachen RPG, DDS und CL empfand ich anfangs etwas kryptisch. 
-						Die Ausgabe von Informationen erfolgte damals auf dem sogenannten Green Screen und auf Kettendruckern.
-						Der Vorteil dieser Systeme lag allerdings in der für damalige Verhältnisse hohen Verarbeitungsgeschwindigkeit großer Datenmengen.
-						Meine Ausbildung war praxisorientiert: 
-						Ich hatte direkten Kundenkontakt und wurde in allen Bereichen der Datenverarbeitung eingesetzt.
-					</p>
-					<h2>Anwendungsentwickler</h2>
-					<p> 
-						Seit dem Abschluss meiner Berufsausbildung 1989 bin ich in Hamburger Softwareunternehmen als Anwendungsentwickler tätig.
-						Mein Verständnis für kaufmännische Abläufe helfen mir stets bei der Umsetzung der individuellen Kundenanforderungen.
-						Seit jeher ist es mir wichtig, Benutzerschnittstellen optimal auf die Bedürfnisse des Anwenders zuzuschneiden.
-						Diese auch einheitlich zu gestalten, damit der Anwender schnell zum gewünschten Ziel kommt.
-						Da ich schon von Beginn an nah am System programmiert habe, schreibe ich auch heute den Code so, dass er immer den Vorgaben der jeweiligen Umgebung entspricht.
-						Dabei ist der Aufwand zunächst zwar größer.
-						Durch maximale Kompatibilität und gute Wartbarkeit rentiert sich dies jedoch im Laufe der Zeit.
-						Der beste Code ist der, der nie wieder auffällt.
-					</p>
-					<p>
-						In den folgenden Jahren habe ich an der Weiterentwicklung und Wartung großer Warenwirtschaftsysteme mitgearbeitet.
-						Mit einem solchen System haben unsere Kunden fast alle Bereiche des Betriebs verwaltet. Vom Kundenstamm und der Lagerhaltung über die Auftragsabwicklung bis hin zum Versand und der Debitorenbuchhaltung.
-						Eine typische Datenbank hielt eine Milliarde Datensätze.
-						Überwiegend wurde unsere Software auf einer IBM AS/400 (später iSeries) eingesetzt.
-						Weil mir die Programmierung in RPG auf der Datenbank DB2 nicht genug war, habe ich mich in C++, Visual Basic und Microsoft Access eingearbeitet.
-						Hier war es endlich möglich, grafische Oberflächen zu gestalten und weitere Komponenten wie Microsoft Word anzubinden.
-						Ich habe dann mittels VBA .NET eigenständig eine Client-Software zur Verwaltung und Verfolgung von Bug Reports und Feature-Requests sowie die Auslieferung von Software Updates und Dokumentation derer konzipiert und implementiert. 
-						Dieses Tool wurde für diesen Zweck in unserem Unternehmen eingesetzt. 
-					</p>
-					<h2>Web Development</h2>
-					<p>
-						In der Vergangenheit wurde ein nicht unerheblicher Teil der Arbeitszeit mit der Analyse und Anpassungen von vielfach redundantem Code aufgewendet.
-						Mit dem Aufkommen von Java 1998 (Version 1.2) sind mir deshalb schnell die Vorteile einer plattformunabhängigen, objektorientierten Programmiersprache bewusst geworden.
-						Neben meiner beruflichen Tätigkeit habe ich deshalb mit Java einige Desktopanwendungen realisiert. 
-						Um die dabei erworbenen Kenntnisse zu erweitern, nahm ich 2007 an einer	Fortbildung zum Softwareentwickler Java/J2EE teil, bei der ich auch das Zertifikat "Sun Certified Programmer" erwarb.
-					</p>
-					<p>
-						Bald darauf folgte eine Anstellung als Java-Anwendungsentwickler bei einem namhaften Hamburger Softwareunternehmen.
-						Dort war ich als Entwickler an der Programmierung und dem Betrieb komplexer eCommerce-Systeme auf Basis des IBM Websphere Commerce Frameworks beteiligt.
-						Es handelte sich dabei um performante, mehrschichtige Internetapplikationen auf verteilten Plattformen.
-						Meine dabei erworbenen Kenntnisse sind vielfältig:
-						Von der detailgetreuen Umsetzung grafischer Anforderungen des Kunden, über individuelle Anpassungen der Geschäftslogik und der Datenbank des WebSphere Frameworks bis hin zur Optimierung des Codes hinsichtlich Wartbarkeit und Performance.
-						Weitere Kenntnisse sind Search Engine Optimization, Datenanalyse, Konfiguration der Application Server auf Linux und IBM iSeries sowie der Kundensupport.
-					</p>
-					<p>
-						Aktuell bin ich bei einem Anbieter von Incentive-Lösungen als Softwareentwickler tätig.
-						Auch dort entwickle ich gemeinsam im Team Online Shops mit Hilfe innovativer, benutzerfreundlicher Frontend-Technologien.      
-					</p>
-					<p>
-						Möchten Sie eine Zusammenfassung meiner Kenntnisse und Fähigkeiten lesen? Auf der <a href="/skills.html">folgenden Seite erhalten Sie einen Überblick</a>.
-					</p>
-				</section>
-				<%@ include file="include/sub-nav.jspf"%>
-				<%@ include file="include/footer.jspf"%>
-			</div>
+<head>
+<%@ include file="include/head.jspf"%>
+</head>
+<body>
+	<%@ include file="include/nav.jspf"%>
+	<%@ include file="include/header.jspf"%>
+	<!-- Content section -->
+	<section class="py-5">
+		<div class="container">
+			<h1>Über mich</h1>
+			<p class="lead">Softwareentwicklung als Leidenschaft</p>
+			<p>Computertechnik und Programmierung sind schon früh meine Leidenschaft geworden. Daraufhin habe ich viele
+				Abschnitte der technischen Entwicklung miterlebt: Vom 8-Bit-Microcomputer, über IBM Mainframes bis hin zur
+				mehrschichtigen, hoch verfügbaren eCommerce-Plattform. Dabei stets neugierig auf Fortschritte in der
+				Softwareentwicklung, welche die Implementierung und Wartung komplexer Systeme erleichtern und deren Zuverlässigkeit
+				steigern. Meine langjährige Erfahrung ermöglicht es mir, stabilen und performanten Code zu schreiben sowie auch in
+				kritischen Situationen den Überblick zu behalten. Softwareentwicklung ist ein kreativer Prozess, bei dem man
+				jederzeit offen für Ideen sein sollte. Gleichsam hilft ein gewisser Riecher, bestimmte wiederkehrende Probleme gar
+				nicht erst aufkommen zu lassen.</p>
+			<p>Mein Interesse liegt vorrangig auf Design Patterns und Clean Code. Den umfangreichen Fundus an Open Source
+				Software schätze ich als Quelle durchdachter und vielfach im Einsatz geprüfter Komponenten. Dazu zählen das Spring
+				Framework, das ORM Hibernate, die Apache Commons Library und viele mehr. Schon zu Zeiten des Green Screen hatte ich
+				den Anspruch, die - damals eher beruflichen - Anwender meiner Software sollen sich damit wohlfühlen. Durch moderne
+				CSS und Javascript-Frameworks wie Bootstrap oder Angular ist es möglich, dem Benutzer Inhalte optimal zu
+				präsentieren und mit ihm in Interaktion zu treten. Denn Software wird heute auch von Menschen genutzt, die eben
+				nicht wie ein Programmierer denken.</p>
+			<p>Wie viele Entwickler beziehe ich mein Fachwissen aus der einschlägigen Literatur. Manning Publications hat
+				dazu zum Beispiel einiges im Angebot. Zu diesem eher theoretischen Ansatz kann und sollte man seinen eigenen Code
+				Style aber auch durch das Studium fremden Codes immer wieder verbessern. Ich liebe es, mir Beispiele anderer
+				Entwickler anzusehen, zu bewerten und gegebenenfalls in meine Arbeitsweise zu übernehmen. Javin Paul, Eugen
+				Paraschiv oder Bauke Scholtz alias BalusC sind wegweisende Koryphäen. Diskussionen zu Softwarearchitektur im
+				Allgemeinen verfolge ich gern und gleiche sie mit meiner Auffassungen dazu ab.</p>
+			<p>Software basiert nicht nur auf einer bestimmten Plattform wie zum Beispiel die Java EE oder der Wildfly
+				Application Server. Sie interagiert heute über Schnittstellen mehr denn je mit anderen Modulen und Systemen. Ich
+				beschäftige mich meist intensiv mit der Dokumentation zu diesen Modulen. Die Dokumentation zu verstehen und das
+				Verhalten der eigenen Software exakt darauf abzustimmen, ist Voraussetzung, um ein hohes Maß an Stabilität und
+				Langlebigkeit zu gewährleisten. So freut es mich manches Mal zu erfahren, dass ein Stück Software schon so lange
+				unauffällig seinen Dienst tut. Auch nach Änderungen am zu Grunde liegenden System oder der umgebenen Infrastruktur.</p>
 		</div>
-		<div id="goup"></div>
-	</body>
+	</section>
+
+	<!-- Image Section - set the background image for the header in the line below -->
+	<section id="skills" class="py-5 bg-image-full"
+		style="background-image: url('${staticPath}css/img/louis-reed-747404-unsplash-2-lg.jpg');">
+		<!-- Put anything you want here! There is just a spacer below for demo purposes! -->
+		<div style="height: 200px;"></div>
+	</section>
+
+	<!-- Content section -->
+	<section class="py-5">
+		<div class="container">
+			<h1>Qualifikation</h1>
+			<p class="lead">Eine Zusammenfassung meiner Kenntnisse und Fähigkeiten</p>
+			<ul>
+				<li>Konzeption, Entwicklung und Betreuung kaufmännischer Branchensoftware und Tools</li>
+				<li>Programmierung mehrschichtiger, verteilter Internetapplikationen für den Versandhandel</li>
+				<li>Einsatz von Open-Source-Frameworks und -Tools</li>
+				<li>Konfiguration und Betrieb Linux Rootserver</li>
+				<li>Programmierung Java EE unter Eclipse IDE (Frameworks JSF, Spring, Struts, JPA/Hibernate)</li>
+				<li>Webdesign mit JSP, HTML, CSS und Javascript</li>
+				<li>IBM Websphere Application Server, Apache HTTP Server, Apache Tomcat</li>
+				<li>Datenbanken DB2, MySQL und Microsoft Access</li>
+				<li>Softwareentwicklung, Datenbankdesign und Administration IBM iSeries</li>
+				<li>Kundensupport und Einarbeitung von Kollegen</li>
+				<li>Dokumentation in englischer Sprache</li>
+			</ul>
+		</div>
+	</section>
+
+	<!-- Image Section - set the background image for the header in the line below -->
+	<section id="contact" class="py-5 bg-image-full"
+		style="background-image: url('${staticPath}css/img/louis-reed-747404-unsplash-3-lg.jpg');">
+		<!-- Put anything you want here! There is just a spacer below for demo purposes! -->
+		<div style="height: 200px;"></div>
+	</section>
+
+	<!-- Content section -->
+	<section class="py-5">
+		<div class="container">
+			<h1>Kontakt</h1>
+			<p class="lead">Sie möchten mich kennenlernen</p>
+			<p>Falls Sie mich gerne kennenlernen oder gar meine Dienste als Softwareentwickler in Anspruch nehmen möchten,
+				schreiben Sie mir bitte eine kurze E-Mail. Ich melde mich umgehend zurück. Vielen Dank!</p>
+			<a class="owner-email" href="mailto:#"></a>
+		</div>
+	</section>
+
+	<%@ include file="include/footer.jspf"%>
+	<%@ include file="include/foot.jspf"%>
+</body>
 </html>
