@@ -25,7 +25,7 @@
 			</ol>
 			<h2>I. Informationen über mich als Verantwortlicher</h2>
 			<p>Verantwortlicher Anbieter dieses Internetauftritts im datenschutzrechtlichen Sinne ist:</p>
-			<%@ include file="include/site-owner.jspf"%>
+			<%@ include file="include/siteowner.jspf"%>
 			<h2>II. Rechte der Nutzer und Betroffenen</h2>
 			<p>Mit Blick auf die nachfolgend noch näher beschriebene Datenverarbeitung haben die Nutzer und Betroffenen das Recht</p>
 			<ul>

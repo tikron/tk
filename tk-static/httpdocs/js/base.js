@@ -44,10 +44,8 @@ function TK(options) {
 	
 	var _updateUI = function() {
 		$('.owner-address').append(_getAddressLine());
-		$('.owner-email').attr('href', _getContactEmailLink());
-		$('.owner-email').html(_getContactEmailText());
-		$('.owner-phone').attr('href', _getContactPhoneLink());
-		$('.owner-phone').html(_text.phone.label);
+		$('.owner-email').attr('href', _getEmailLink()).html(_getEmailText());
+		$('.owner-phone').attr('href', _getPhoneLink()).html(_text.phone.label);
 		$('.imprint-address').append(_getAddressHtml());
 	}
 
@@ -59,7 +57,7 @@ function TK(options) {
 	 * 
 	 * @returns {String} The email address link.
 	 */
-	var _getContactEmailLink = function() {
+	var _getEmailLink = function() {
 		return 'mailto:' + _text.email.address + '?subject=' + _text.email.subject + '&body=' + _text.email.body;
 	}
 
@@ -68,7 +66,7 @@ function TK(options) {
 	 * 
 	 * @returns {String} The email address.
 	 */
-	var _getContactEmailText = function() {
+	var _getEmailText = function() {
 		return _text.email.address;
 	}
 
@@ -77,7 +75,7 @@ function TK(options) {
 	 * 
 	 * @returns {String} The phone number link.
 	 */
-	var _getContactPhoneLink = function() {
+	var _getPhoneLink = function() {
 		return 'tel:' + _text.phone.number;
 	}
 
