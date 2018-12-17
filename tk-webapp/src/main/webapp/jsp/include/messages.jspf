@@ -1,0 +1,4 @@
+<div class="alert alert-warning alert-dismissible" id="alert-no-js">
+	<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+	<span><strong>Hinweis:</strong> JavaScript ist nicht verfügbar. Um diese Website nutzen und alle Inhalte sehen zu können, <a href="http://enable-javascript.com/" class="alert-link">aktivieren Sie bitte JavaScript</a>.</span>
+</div>

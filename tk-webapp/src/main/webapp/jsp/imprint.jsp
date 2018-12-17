@@ -10,6 +10,7 @@
 <body>
 	<%@ include file="include/nav.jspf"%>
 	<%@ include file="include/header.jspf"%>
+	<%@ include file="include/messages.jspf"%>
 	<!-- Content section -->
 	<section class="py-5">
 		<div class="container">
