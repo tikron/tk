@@ -18,7 +18,9 @@ function TK(options) {
 	this.init = function() {
 		_root = this;
 		_cfg = this.config;
-		_ui = {};
+		_ui = {
+				navbar: $('#navbarResponsive')
+		};
 		_updateUI();
 		_bindUIActions();
 //		console.log(_cfg);
@@ -50,6 +52,10 @@ function TK(options) {
 	}
 
 	var _bindUIActions = function() {
+		// Hide nav bar on click manually when menu item points to location on this page
+		_ui.navbar.on('click', function(e) {
+			_ui.navbar.collapse('hide');
+		});
 	}
 
 	/**
