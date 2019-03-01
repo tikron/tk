@@ -60,14 +60,15 @@
 			<p class="lead">Eine Zusammenfassung meiner Kenntnisse und Fähigkeiten</p>
 			<ul>
 				<li>Konzeption, Entwicklung und Betreuung kaufmännischer Branchensoftware und Tools</li>
-				<li>Programmierung mehrschichtiger, verteilter Internetapplikationen für den Versandhandel</li>
-				<li>Einsatz von Open-Source-Frameworks und -Tools</li>
-				<li>Konfiguration und Betrieb Linux Rootserver</li>
-				<li>Programmierung Java EE unter Eclipse IDE (Frameworks JSF, Spring, Struts, JPA/Hibernate)</li>
-				<li>Webdesign mit JSP, HTML, CSS und Javascript</li>
+				<li>Programmierung mehrschichtiger, verteilter Internetapplikationen mittels Java EE</li>
+				<li>Einsatz gängiger Open-Source-Frameworks und -Tools (Bootstrap, Spring, JPA/Hibernate, Eclipse, Maven, Git)</li>
+				<li>Detailgetreue Umsetzung internationaler Benutzerschnittstellen (mit HTML, CSS und Javascript/jQuery)</li>
+				<li>Konzeption und Implementierung SOAP- und REST-Services</li>
+				<li>Design und -analyse relationaler SQL-Datenbanken</li>
 				<li>IBM Websphere Application Server, Apache HTTP Server, Apache Tomcat</li>
-				<li>Datenbanken DB2, MySQL und Microsoft Access</li>
+				<li>Konfiguration und Betrieb Linux Rootserver</li>
 				<li>Softwareentwicklung, Datenbankdesign und Administration IBM iSeries</li>
+				<li>Anwendung der Prinzipien und Praktiken von "Clean Code"
 				<li>Kundensupport und Einarbeitung von Kollegen</li>
 				<li>Dokumentation in englischer Sprache</li>
 			</ul>
