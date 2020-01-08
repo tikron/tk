@@ -8,13 +8,13 @@
 						alt="" width="140" height="37" srcset="images/agency/logo-retina-inverse-280x74.png 2x"></a>
 					<p>We are an award-winning creative agency, dedicated to the best result in web design, promotion, business consulting, and marketing.</p>
 					--%>
-					<p>Copyright © Titus Kruse 2018</p>
+					<p>Copyright © Titus Kruse 2019</p>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<h5>Kontakt</h5>
 				<dl class="contact-list">
-					<dt>Addresse:</dt>
+					<dt>Adresse:</dt>
 					<dd><address class="owner-address"></address></dd>
 				</dl>
 				<dl class="contact-list">
@@ -23,7 +23,7 @@
 				</dl>
 				<dl class="contact-list">
 					<dt>Telefon:</dt>
-					<dd><a class="owner-phone" href="tel:#">+49 40 59360711</a></dd>
+					<dd><a class="owner-phone" href="tel:#"></a></dd>
 				</dl>
 			</div>
 			<div class="col-md-4 col-xl-3">
