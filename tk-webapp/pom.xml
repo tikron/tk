@@ -1,9 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>de.tikru</groupId>
+		<artifactId>tikru</artifactId>
+		<version>3.0</version>
+		<relativePath>../../tikru/tikru</relativePath>
+	</parent>
 	<groupId>de.tituskruse.webapp</groupId>
 	<artifactId>tk-webapp</artifactId>
-	<version>1.2</version>
 	<packaging>war</packaging>
 	<name>Titus Kruse Presentation Page</name>
 	<build>
@@ -28,10 +33,4 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
-	<parent>
-		<groupId>de.tikru</groupId>
-		<artifactId>tikru</artifactId>
-		<version>1.0.1-SNAPSHOT</version>
-		<relativePath>../../tikru/tikru</relativePath>
-	</parent>
 </project>
