@@ -3,9 +3,8 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>de.tikru</groupId>
-		<artifactId>tikru</artifactId>
-		<version>3.0</version>
-		<relativePath>../../tikru/tikru</relativePath>
+		<artifactId>tikru-base</artifactId>
+		<version>1</version>
 	</parent>
 	<groupId>de.tituskruse.webapp</groupId>
 	<artifactId>tk-webapp</artifactId>
