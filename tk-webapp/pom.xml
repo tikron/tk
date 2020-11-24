@@ -4,12 +4,12 @@
 	<parent>
 		<groupId>de.tikru</groupId>
 		<artifactId>tikru-base</artifactId>
-		<version>1</version>
+		<version>${tikru-base.revision}</version>
 		<relativePath>../../tikru-base</relativePath>
 	</parent>
 	<groupId>de.tituskruse.webapp</groupId>
 	<artifactId>tk-webapp</artifactId>
-	<version>3.1</version>
+	<version>3.2</version>
 	<packaging>war</packaging>
 	<name>Titus Kruse Presentation Page</name>
 	<build>
