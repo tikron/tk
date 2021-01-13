@@ -9,11 +9,11 @@
 	</parent>
 	<groupId>de.tituskruse.webapp</groupId>
 	<artifactId>tk-webapp</artifactId>
-	<version>3.2</version>
+	<version>3.2.1</version>
 	<packaging>war</packaging>
 	<name>Titus Kruse Presentation Page</name>
 	<build>
-		<finalName>tk-webapp</finalName>
+		<finalName>${project.artifactId}</finalName>
 	</build>
 	<dependencies>
 		<dependency>
