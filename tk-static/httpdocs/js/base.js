@@ -9,7 +9,7 @@ function TK(options) {
 	var _text = {
 			email: {address: 'job@tituskruse.de', subject: 'Kontaktanfrage', body: 'Sehr%20geehrter%20Herr%20Kruse%2C'},
 			postal : {name: 'Titus Kruse', address: 'Birnweg 2', city: '22335 Hamburg', country: 'Germany'},
-			phone: {label: '+49 157 58846573', number: '+4915758846573'}
+			phone: {label: '+49 176 43231843', number: '+4917643231843'}
 	}
 
   this.config = $.extend({
